@@ -10,11 +10,11 @@ class AuthorSeeder extends Seeder
     public function run(): void
     {
         DB::table('authors')->insert([
-            ['name' => 'Author 1'],
-            ['name' => 'Author 2'],
-            ['name' => 'Author 3'],
-            ['name' => 'Author 4'],
-            ['name' => 'Author 5'],
+            ['name' => 'jaka 1'],
+            ['name' => 'aisah 2'],
+            ['name' => 'oing 3'],
+            ['name' => 'aan 4'],
+            ['name' => 'joko 5'],
         ]);
     }
 }
